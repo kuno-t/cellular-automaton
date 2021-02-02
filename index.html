@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cellStyle.css">
+    <title>1次元セルオートマトン</title>
+  </head>
+  <body>
+    <h1 class="rulenum">ルール:<span id="number"></span></h1>
+  <button id="randomRule">ルールをランダム変更</button><button id="randomSwitch">初期配置をランダムにする</button><button id="rule90">ルール90(フラクタル1)</button><button id="rule126">ルール126(フラクタル2)</button><button id="rule30">ルール30(カオス1)</button></button><button id="rule110">ルール110(カオス2)</button><button id="rule184">ルール184(渋滞シミュレーション)</button><form action="#" id="form"><input type="text" name="ruleText"><input type="button" value="0~255の任意の数値を入力" onclick="ruleCheck()"></form>
+    <canvas id="world" style="display:block;margin:auto;"></canvas>
+    <script src="main.js"></script>
+  </body>
+</html>
